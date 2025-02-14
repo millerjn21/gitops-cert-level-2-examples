@@ -22,10 +22,10 @@ spec:
     syncOptions:
       - CreateNamespace=true  
   ignoreDifferences:
-    - group: core
-      kind: Secret
-      name: example-secret
-      namespace: example02
-      jsonPointers:
-        - /data/my-password
+  - group: core
+    kind: Secret
+    name: example-secret
+    namespace: example02
+    jsonPointers:
+      - /data/my-password
    
